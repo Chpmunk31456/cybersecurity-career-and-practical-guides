@@ -37,10 +37,23 @@ Esta carpeta reúne las ediciones en español latinoamericano de las 50 rutas de
 26. [Ingeniero/a de Seguridad de la Cadena de Suministro de Software](software-supply-chain-security-engineer.md)
 27. [CISO Fraccional o Virtual](fractional-virtual-ciso.md)
 
+## Datos, nube y software
+
+28. [Ingeniero/a de Datos](data-engineer.md)
+29. [Científico/a de Datos](data-scientist.md)
+30. [Ingeniero/a de Analítica](analytics-engineer.md)
+31. [Especialista en Gobierno de Datos](data-governance-specialist.md)
+32. [Arquitecto/a de Nube](cloud-architect.md)
+33. [Ingeniero/a de Plataformas](platform-engineer.md)
+34. [Ingeniero/a de Confiabilidad de Sitios](site-reliability-engineer.md)
+35. [Ingeniero/a MLOps](mlops-engineer.md)
+36. [Especialista FinOps](finops-specialist.md)
+37. [Ingeniero/a de APIs e Integración](api-integration-engineer.md)
+
 ## Estado actual
 
 - Guías previstas: 50
-- Guías migradas y enlazadas: 27
+- Guías migradas y enlazadas: 37
 - Formato actual: Markdown
 - Idioma: español latinoamericano (`es-419`)
 
