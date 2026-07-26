@@ -1,9 +1,5 @@
 # How to Build a Zero Trust Security Program
 
-- [Español — DOCX](./Espanol/Como_Crear_un_Programa_Seguridad_Confianza_Cero_Espanol_v1.0.docx)
-- [Español — MD](./Espanol/Como_Crear_un_Programa_Seguridad_Confianza_Cero_Espanol_v1.0.md)
-- [Español — PDF](./Espanol/Como_Crear_un_Programa_Seguridad_Confianza_Cero_Espanol_v1.0.pdf)
-
 ## Cómo crear un programa de seguridad de Confianza Cero
 
 A practical bilingual guide for planning, implementing, operating, measuring, and improving a Zero Trust security program.
@@ -15,6 +11,10 @@ A practical bilingual guide for planning, implementing, operating, measuring, an
 - [English Markdown Edition](./English/How_to_Build_a_Zero_Trust_Security_Program_English_v1.0.md)
 
 ## Archivos en español
+
+- [Edición Word en español](./Espanol/Como_Crear_un_Programa_Seguridad_Confianza_Cero_Espanol_v1.0.docx)
+- [Edición PDF en español](./Espanol/Como_Crear_un_Programa_Seguridad_Confianza_Cero_Espanol_v1.0.pdf)
+- [Edición Markdown en español](./Espanol/Como_Crear_un_Programa_Seguridad_Confianza_Cero_Espanol_v1.0.md)
 
 ## Topics Covered
 
@@ -68,4 +68,4 @@ This manual is provided for education and general cybersecurity guidance. Zero T
 
 Security changes must be tested and authorized before deployment in production environments.
 
-[Return to the main repository](../../README.md)
+[Return to the architecture and engineering guides](../../README.md)
