@@ -13,11 +13,12 @@ Esta carpeta reúne las ediciones en español latinoamericano de las 50 rutas de
 5. [Arquitecto/a de Soluciones de IA](ai-solutions-architect.md)
 6. [Ingeniero/a de Seguridad de IA](ai-security-engineer.md)
 7. [Especialista en Gobierno de IA](ai-governance-specialist.md)
+8. [Especialista en IA Responsable y Ética](responsible-ai-specialist.md)
 
 ## Estado actual
 
 - Guías previstas: 50
-- Guías migradas y enlazadas: 7
+- Guías migradas y enlazadas: 8
 - Formato actual: Markdown
 - Idioma: español latinoamericano (`es-419`)
 
