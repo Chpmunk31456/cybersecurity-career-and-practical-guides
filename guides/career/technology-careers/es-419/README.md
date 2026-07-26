@@ -2,7 +2,7 @@
 
 Esta carpeta reúne las ediciones en español latinoamericano de las 50 rutas de carreras tecnológicas.
 
-> **Estado de migración:** la colección se está trasladando de forma controlada desde el repositorio histórico en español. Cada guía se agrega y verifica antes de incorporarse al catálogo.
+> **Estado de migración:** la colección se trasladó de forma controlada desde el repositorio histórico en español. Las 50 guías están incorporadas al catálogo.
 
 ## Inteligencia artificial y sistemas inteligentes
 
@@ -65,11 +65,14 @@ Esta carpeta reúne las ediciones en español latinoamericano de las 50 rutas de
 ## Accesibilidad y tecnología humana
 
 47. [Ingeniero/a de Accesibilidad](accessibility-engineer.md)
+48. [Especialista en Tecnología de Asistencia](assistive-technology-specialist.md)
+49. [Consultor/a de Tecnología de Rehabilitación](rehabilitation-technology-consultant.md)
+50. [Investigador/a de Experiencia de Usuario Inclusiva](inclusive-ux-researcher.md)
 
 ## Estado actual
 
 - Guías previstas: 50
-- Guías migradas y enlazadas: 47
+- Guías migradas y enlazadas: 50
 - Formato actual: Markdown
 - Idioma: español latinoamericano (`es-419`)
 
