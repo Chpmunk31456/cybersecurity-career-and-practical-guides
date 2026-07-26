@@ -1,0 +1,128 @@
+name: Temporary post-repair README audit
+
+on:
+  push:
+    branches:
+      - agent/post-repair-readme-audit
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: agent/post-repair-readme-audit
+          fetch-depth: 0
+
+      - name: Audit README links and associations
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from urllib.parse import unquote
+          import os, re
+
+          root = Path('.')
+          readmes = sorted(p for p in root.rglob('README*.md') if '.git' not in p.parts)
+          markdown_link = re.compile(r'(?<!!)\[[^\]]+\]\(([^)]+)\)')
+          malformed = re.compile(r'\]\s+\(')
+          broken = []
+          malformed_rows = []
+          checked = 0
+          external = 0
+          anchors = 0
+          mailto = 0
+
+          for readme in readmes:
+              text = readme.read_text(encoding='utf-8', errors='replace')
+              for lineno, line in enumerate(text.splitlines(), 1):
+                  if malformed.search(line):
+                      malformed_rows.append((str(readme), lineno, line.strip()))
+              for m in markdown_link.finditer(text):
+                  target = m.group(1).strip()
+                  if target.startswith('<') and target.endswith('>'):
+                      target = target[1:-1].strip()
+                  if target.startswith(('http://', 'https://')):
+                      external += 1
+                      continue
+                  if target.startswith('mailto:'):
+                      mailto += 1
+                      continue
+                  if target.startswith('#'):
+                      anchors += 1
+                      continue
+                  target = target.split('#', 1)[0].split('?', 1)[0]
+                  if not target:
+                      continue
+                  checked += 1
+                  resolved = (readme.parent / unquote(target)).resolve()
+                  try:
+                      resolved.relative_to(root.resolve())
+                  except ValueError:
+                      broken.append((str(readme), target, 'outside repository'))
+                      continue
+                  if not resolved.exists():
+                      broken.append((str(readme), target, os.path.relpath(resolved, root.resolve())))
+
+          # Confirm Portuguese and Spanish career catalogs have 50 linked guides.
+          catalogs = [
+              Path('guides/career/technology-careers/es-419/README.md'),
+              Path('guides/career/technology-careers/pt-BR/README.md'),
+          ]
+          catalog_results = []
+          for catalog in catalogs:
+              if not catalog.exists():
+                  catalog_results.append((str(catalog), 0, ['catalog missing']))
+                  continue
+              text = catalog.read_text(encoding='utf-8', errors='replace')
+              links = []
+              missing = []
+              for target in markdown_link.findall(text):
+                  clean = target.strip().split('#',1)[0].split('?',1)[0]
+                  if clean.endswith('.md') and clean not in ('../../../../LICENSE',):
+                      links.append(clean)
+                      if not (catalog.parent / clean).exists():
+                          missing.append(clean)
+              catalog_results.append((str(catalog), len(links), missing))
+
+          status = 'PASS' if not broken and not malformed_rows and all(count == 50 and not missing for _,count,missing in catalog_results) else 'FAIL'
+          out = []
+          out += ['# Post-Repair README and Associated-File Audit', '', f'**Overall result:** {status}', '']
+          out += ['## Summary', '', f'- README files audited: {len(readmes)}', f'- Repository-local links checked: {checked}', f'- Broken repository-local targets: {len(broken)}', f'- Malformed Markdown link patterns: {len(malformed_rows)}', f'- External links identified but not network-tested: {external}', f'- Internal anchors identified: {anchors}', f'- Email links identified: {mailto}', '']
+          out += ['## Career Catalog Verification', '']
+          for path,count,missing in catalog_results:
+              out.append(f'- `{path}`: {count} Markdown guide links; missing targets: {len(missing)}')
+              for item in missing:
+                  out.append(f'  - `{item}`')
+          out.append('')
+          out += ['## Broken Repository-Local Targets', '']
+          if broken:
+              out += ['| README | Link | Resolved target |', '|---|---|---|']
+              for r,t,res in broken:
+                  out.append(f'| `{r}` | `{t}` | `{res}` |')
+          else:
+              out.append('No broken repository-local targets were found.')
+          out.append('')
+          out += ['## Malformed Markdown Links', '']
+          if malformed_rows:
+              out += ['| README | Line | Text |', '|---|---:|---|']
+              for r,n,line in malformed_rows:
+                  out.append(f'| `{r}` | {n} | `{line.replace("|", "\\|")}` |')
+          else:
+              out.append('No malformed `] (` Markdown link patterns were found.')
+          out += ['', '## Limits', '', '- External websites were not tested.', '- This audit verifies path resolution and catalog completeness; it does not certify substantive accuracy or translation quality of every manual.']
+          Path('project/POST_REPAIR_README_AUDIT.md').write_text('\n'.join(out) + '\n', encoding='utf-8')
+          PY
+
+      - name: Commit report and remove temporary workflow
+        shell: bash
+        run: |
+          rm -f .github/workflows/temporary-post-repair-readme-audit.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add project/POST_REPAIR_README_AUDIT.md .github/workflows/temporary-post-repair-readme-audit.yml
+          git commit -m "Add post-repair README audit report"
+          git push origin HEAD:agent/post-repair-readme-audit
