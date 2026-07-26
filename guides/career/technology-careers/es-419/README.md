@@ -26,11 +26,21 @@ Esta carpeta reúne las ediciones en español latinoamericano de las 50 rutas de
 15. [Ingeniero/a de Seguridad en la Nube](cloud-security-engineer.md)
 16. [Arquitecto/a de Seguridad](security-architect.md)
 17. [Ingeniero/a de Gestión de Identidades y Accesos](identity-and-access-management-engineer.md)
+18. [Ingeniero/a de Seguridad de Aplicaciones](application-security-engineer.md)
+19. [Ingeniero/a DevSecOps](devsecops-engineer.md)
+20. [Ingeniero/a de Detección de Amenazas](threat-detection-engineer.md)
+21. [Especialista en Forense Digital y Respuesta a Incidentes](digital-forensics-incident-response-specialist.md)
+22. [Especialista en Ciberseguridad OT/ICS](ot-ics-cybersecurity-specialist.md)
+23. [Analista de Gobierno, Riesgo y Cumplimiento de Ciberseguridad](cybersecurity-grc-analyst.md)
+24. [Ingeniero/a de Privacidad](privacy-engineer.md)
+25. [Especialista en Criptografía Poscuántica](post-quantum-cryptography-specialist.md)
+26. [Ingeniero/a de Seguridad de la Cadena de Suministro de Software](software-supply-chain-security-engineer.md)
+27. [CISO Fraccional o Virtual](fractional-virtual-ciso.md)
 
 ## Estado actual
 
 - Guías previstas: 50
-- Guías migradas y enlazadas: 17
+- Guías migradas y enlazadas: 27
 - Formato actual: Markdown
 - Idioma: español latinoamericano (`es-419`)
 
