@@ -1,20 +1,19 @@
 # How to Build a Cybersecurity Incident Response Program
 
+- [English — DOCX](./English/How_to_Build_a_Cybersecurity_Portfolio_on_GitHub_English_v1.0.docx)
+- [English — MD](./English/How_to_Build_a_Cybersecurity_Portfolio_on_GitHub_English_v1.0.md)
+- [English — PDF](./English/How_to_Build_a_Cybersecurity_Portfolio_on_GitHub_English_v1.0.pdf)
+- [Español — DOCX](./Espanol/Como_Crear_un_Portafolio_de_Ciberseguridad_en_GitHub_Espanol_v1.0.docx)
+- [Español — MD](./Espanol/Como_Crear_un_Portafolio_de_Ciberseguridad_en_GitHub_Espanol_v1.0.md)
+- [Español — PDF](./Espanol/Como_Crear_un_Portafolio_de_Ciberseguridad_en_GitHub_Espanol_v1.0.pdf)
+
 ## Cómo crear un programa de respuesta a incidentes de ciberseguridad
 
 A practical bilingual guide for planning, implementing, operating, testing, and improving a cybersecurity incident response program.
 
 ## English Files
 
-- [English Word Edition](./English/How_to_Build_a_Cybersecurity_Incident_Response_Program_English_v1.0.docx)
-- [English PDF Edition](./English/How_to_Build_a_Cybersecurity_Incident_Response_Program_English_v1.0.pdf)
-- [English Markdown Edition](./English/How_to_Build_a_Cybersecurity_Incident_Response_Program_English_v1.0.md)
-
 ## Archivos en español
-
-- [Edición Word en español](./Espanol/Como_Crear_un_Programa_de_Respuesta_a_Incidentes_Espanol_v1.0.docx)
-- [Edición PDF en español](./Espanol/Como_Crear_un_Programa_de_Respuesta_a_Incidentes_Espanol_v1.0.pdf)
-- [Edición Markdown en español](./Espanol/Como_Crear_un_Programa_de_Respuesta_a_Incidentes_Espanol_v1.0.md)
 
 ## Topics Covered
 

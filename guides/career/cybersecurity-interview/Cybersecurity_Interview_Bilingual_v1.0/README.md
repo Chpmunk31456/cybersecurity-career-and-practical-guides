@@ -1,5 +1,9 @@
 # How to Prepare for a Cybersecurity Interview
 
+- [Español — DOCX](./Espanol/Como_Prepararse_Entrevista_Ciberseguridad_Espanol_v1.0.docx)
+- [Español — MD](./Espanol/Como_Prepararse_Entrevista_Ciberseguridad_Espanol_v1.0.md)
+- [Español — PDF](./Espanol/Como_Prepararse_Entrevista_Ciberseguridad_Espanol_v1.0.pdf)
+
 ## Cómo prepararse para una entrevista de ciberseguridad
 
 A practical bilingual guide for preparing for cybersecurity interviews, organizing strong examples, answering technical and behavioral questions, and communicating experience honestly and clearly.
@@ -11,10 +15,6 @@ A practical bilingual guide for preparing for cybersecurity interviews, organizi
 - [English Markdown Edition](./English/How_to_Prepare_for_a_Cybersecurity_Interview_English_v1.0.md)
 
 ## Archivos en español
-
-- [Edición Word en español](./Espanol/Como_Prepararse_para_una_Entrevista_de_Ciberseguridad_Espanol_v1.0.docx)
-- [Edición PDF en español](./Espanol/Como_Prepararse_para_una_Entrevista_de_Ciberseguridad_Espanol_v1.0.pdf)
-- [Edición Markdown en español](./Espanol/Como_Prepararse_para_una_Entrevista_de_Ciberseguridad_Espanol_v1.0.md)
 
 ## Topics Covered
 
