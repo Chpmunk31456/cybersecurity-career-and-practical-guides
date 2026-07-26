@@ -7,11 +7,12 @@ Esta carpeta reúne las ediciones en español latinoamericano de las 50 rutas de
 ## Inteligencia artificial y sistemas inteligentes
 
 1. [Ingeniero/a de Inteligencia Artificial](ai-engineer.md)
+2. [Ingeniero/a de Aprendizaje Automático](machine-learning-engineer.md)
 
 ## Estado actual
 
 - Guías previstas: 50
-- Guías migradas y enlazadas: 1
+- Guías migradas y enlazadas: 2
 - Formato actual: Markdown
 - Idioma: español latinoamericano (`es-419`)
 
