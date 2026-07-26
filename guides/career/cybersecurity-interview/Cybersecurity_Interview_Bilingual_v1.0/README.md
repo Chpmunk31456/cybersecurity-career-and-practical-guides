@@ -12,9 +12,9 @@ A practical bilingual guide for preparing for cybersecurity interviews, organizi
 
 ## Archivos en español
 
-- [Edición Word en español](./Espanol/Como_Prepararse_para_una_Entrevista_de_Ciberseguridad_Espanol_v1.0.docx)
-- [Edición PDF en español](./Espanol/Como_Prepararse_para_una_Entrevista_de_Ciberseguridad_Espanol_v1.0.pdf)
-- [Edición Markdown en español](./Espanol/Como_Prepararse_para_una_Entrevista_de_Ciberseguridad_Espanol_v1.0.md)
+- [Edición Word en español](./Espanol/Como_Prepararse_Entrevista_Ciberseguridad_Espanol_v1.0.docx)
+- [Edición PDF en español](./Espanol/Como_Prepararse_Entrevista_Ciberseguridad_Espanol_v1.0.pdf)
+- [Edición Markdown en español](./Espanol/Como_Prepararse_Entrevista_Ciberseguridad_Espanol_v1.0.md)
 
 ## Topics Covered
 
@@ -82,4 +82,4 @@ This manual is provided for education and career development.
 
 It does not guarantee an interview, job offer, promotion, or specific compensation. Candidates remain responsible for the accuracy of every statement made in applications and interviews.
 
-[Return to the main repository](../../README.md)
+[Return to the career guides](../../README.md)
