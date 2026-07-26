@@ -1,0 +1,112 @@
+name: Audit Spanish career guides
+
+on:
+  push:
+    branches:
+      - agent/audit-spanish-career-guides
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: agent/audit-spanish-career-guides
+          fetch-depth: 0
+
+      - name: Audit all 50 Spanish guides
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+
+          root = Path("guides/career/technology-careers")
+          es = root / "es-419"
+          catalog = es / "README.md"
+          text = catalog.read_text(encoding="utf-8")
+          entries = re.findall(r"^\s*(\d+)\.\s+\[[^\]]+\]\(([^)]+\.md)\)\s*$", text, re.M)
+
+          failures = []
+          details = []
+          expected_numbers = list(range(1, 51))
+          found_numbers = [int(n) for n, _ in entries]
+          filenames = [f for _, f in entries]
+
+          if len(entries) != 50:
+              failures.append(f"Catalog contains {len(entries)} numbered guide links instead of 50.")
+          if found_numbers != expected_numbers:
+              failures.append(f"Catalog numbering is not sequential 1–50: {found_numbers}")
+          if len(set(filenames)) != len(filenames):
+              failures.append("Catalog contains duplicate filenames.")
+
+          for number, filename in entries:
+              number = int(number)
+              path = es / filename
+              item_failures = []
+              if not path.is_file():
+                  item_failures.append("file missing")
+              else:
+                  body = path.read_text(encoding="utf-8")
+                  checks = {
+                      "guide number": re.search(rf"\*\*Guía\s+{number}\s+de\s+50\*\*", body, re.I) is not None,
+                      "authorship": "**Autor:** Alberto (Al) Leiva" in body,
+                      "license": "Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional" in body,
+                      "accessibility": re.search(r"^##\s+.*Accesibilidad", body, re.M | re.I) is not None,
+                      "safety/do-no-harm": re.search(r"^##\s+.*(Seguridad humana|No causar daño|Seguridad física|Seguridad y bienestar)", body, re.M | re.I) is not None,
+                      "catalog footer": "(README.md)" in body,
+                      "English footer": re.search(r"\(\.\./[^/)]+\.md\)", body) is not None,
+                      "Portuguese footer": re.search(r"\(\.\./pt-BR/[^)]+\.md\)", body) is not None,
+                      "top-level title": body.startswith("# "),
+                  }
+                  for label, passed in checks.items():
+                      if not passed:
+                          item_failures.append(label)
+              status = "PASS" if not item_failures else "FAIL: " + ", ".join(item_failures)
+              details.append((number, filename, status))
+              if item_failures:
+                  failures.append(f"Guide {number} ({filename}): {', '.join(item_failures)}")
+
+          report = [
+              "# Spanish Technology-Career Guide Audit",
+              "",
+              "Audit scope: all 50 Spanish (`es-419`) technology-career guides on the audit branch.",
+              "",
+              f"**Overall result:** {'PASS' if not failures else 'FAIL'}",
+              "",
+              "## Checks",
+              "",
+              "- Catalog contains exactly 50 unique, sequential entries.",
+              "- Each target file exists.",
+              "- Guide number matches its catalog position.",
+              "- Alberto (Al) Leiva authorship line is present.",
+              "- CC BY-NC-SA 4.0 license statement is present.",
+              "- Accessibility and safety/do-no-harm sections are present.",
+              "- Spanish catalog, English-edition, and Brazilian Portuguese footer links are present.",
+              "- Each file begins with a top-level Markdown title.",
+              "",
+              "## Results",
+              "",
+              "| Guide | File | Result |",
+              "|---:|---|---|",
+          ]
+          report.extend(f"| {n} | `{f}` | {s} |" for n, f, s in details)
+          report.extend(["", "## Findings", ""])
+          if failures:
+              report.extend(f"- {failure}" for failure in failures)
+          else:
+              report.append("No defects were identified by the mechanical audit.")
+          report.append("")
+
+          Path("project/SPANISH_TECHNOLOGY_CAREER_GUIDE_AUDIT.md").write_text("\n".join(report), encoding="utf-8")
+
+      - name: Commit audit report and remove temporary workflow
+        run: |
+          rm .github/workflows/audit-spanish-career-guides.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add project/SPANISH_TECHNOLOGY_CAREER_GUIDE_AUDIT.md .github/workflows/audit-spanish-career-guides.yml
+          git commit -m "Add Spanish technology-career guide audit report"
+          git push origin HEAD:agent/audit-spanish-career-guides
