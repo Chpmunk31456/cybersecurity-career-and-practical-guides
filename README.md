@@ -30,7 +30,7 @@ This project exists to make cybersecurity education and career development easie
 
 1. If you are choosing a career direction, begin with [Career Development](#career-development).
 2. If you are building or evaluating a security program, choose a section from the [Practical Guide Catalog](#practical-guide-catalog).
-3. Open a guide folder and select the available English or Spanish edition.
+3. Open a guide folder and select the available English, Spanish, or Brazilian Portuguese edition.
 4. Choose Markdown for browser reading, PDF for distribution, or DOCX for accessibility, notes, and training use.
 5. Verify changing technical, legal, regulatory, certification, and product information with authoritative sources.
 
@@ -38,12 +38,14 @@ This project exists to make cybersecurity education and career development easie
 
 | Resource | Purpose |
 |---|---|
-| [Technology Career Guides](guides/career/technology-careers/) | Role-specific introductions and a technology-career foundation guide |
+| Technology Career Guides | [English catalog](guides/career/technology-careers/README.md) · [Spanish catalog — 50 complete guides](guides/career/technology-careers/es-419/README.md) · [Brazilian Portuguese catalog](guides/career/technology-careers/pt-BR/README.md) |
 | [Global Technology Opportunities](guides/career/global-technology-opportunities/) | Foundation guidance for finding and evaluating technology opportunities |
 | [GRC Analyst](guides/career/grc-analyst/) | English and Spanish roadmaps for governance, risk, and compliance |
 | [SOC Analyst](guides/career/soc-analyst/) | English and Spanish security-operations career guidance |
 | [Cybersecurity Portfolio](guides/career/cybersecurity-portfolio/) | Building an ethical, evidence-based portfolio on GitHub |
 | [Cybersecurity Interview](guides/career/cybersecurity-interview/) | Interview preparation without fabricating experience or qualifications |
+
+The Spanish technology-career collection is complete and includes all 50 guides. English and Brazilian Portuguese availability is linked through their respective catalogs.
 
 ## Practical Guide Catalog
 
