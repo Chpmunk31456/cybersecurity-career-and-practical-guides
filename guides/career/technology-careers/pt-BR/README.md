@@ -17,7 +17,7 @@
 - [Gerente de produto de IA](ai-product-manager.md)
 - [Consultor de adoção de IA](ai-adoption-consultant.md)
 - [Engenheiro de Visão Computacional](computer-vision-engineer.md)
-- [Engenheiro de Processamento de Linguagem Natural] (nlp-engineer.md)
+- [Engenheiro de Processamento de Linguagem Natural](nlp-engineer.md)
 
 ## Cibersegurança, privacidade e confiança digital
 
@@ -28,12 +28,12 @@
 - [Engenheiro de segurança de aplicativos](application-security-engineer.md)
 - [Engenheiro DevSecOps](devsecops-engineer.md)
 - [Engenheiro de Detecção](detection-engineer.md)
-- [Especialista em perícia digital e resposta a incidentes] (dfir-specialist.md)
+- [Especialista em perícia digital e resposta a incidentes](dfir-specialist.md)
 - [Especialista em Segurança OT/ICS](ot-ics-security-specialist.md)
 - [Analista GRC](grc-analyst.md)
 - [Engenheiro de Privacidade](privacy-engineer.md)
-- [Especialista em criptografia pós-quântica] (post-quantum-cryptography-specialist.md)
-- [Engenheiro de segurança da cadeia de suprimentos de software] (software-supply-chain-security-engineer.md)
+- [Especialista em criptografia pós-quântica](post-quantum-cryptography-specialist.md)
+- [Engenheiro de segurança da cadeia de suprimentos de software](software-supply-chain-security-engineer.md)
 - [CISO virtual](virtual-ciso.md)
 
 ## Plataformas de dados, nuvem e software
@@ -48,18 +48,18 @@
 - [Engenheiro MLOps](mlops-engineer.md)
 - [Especialista em FinOps](finops-specialist.md)
 - [Engenheiro de API e Integração](api-integration-engineer.md)
-- [Engenheiro de software Full Stack] (full-stack-software-engineer.md)
+- [Engenheiro de software Full Stack](full-stack-software-engineer.md)
 
 ## Robótica, infraestrutura e tecnologia emergente
 
 - [Engenheiro de Robótica](robotics-engineer.md)
 - [Engenheiro de Sistemas Autônomos](autonomous-systems-engineer.md)
-- [Engenheiro de Internet das Coisas] (iot-engineer.md)
-- [Engenheiro de Computação Edge] (edge-computing-engineer.md)
-- [Engenheiro Gêmeo Digital] (digital-twin-engineer.md)
+- [Engenheiro de Internet das Coisas](iot-engineer.md)
+- [Engenheiro de Computação Edge](edge-computing-engineer.md)
+- [Engenheiro Gêmeo Digital](digital-twin-engineer.md)
 - [Técnico de Infraestrutura de Data Center](data-center-infrastructure-technician.md)
-- [Engenheiro de Software Quântico] (quantum-software-engineer.md)
-- [Especialista em energia limpa e redes inteligentes] (clean-energy-smart-grid-specialist.md)
+- [Engenheiro de Software Quântico](quantum-software-engineer.md)
+- [Especialista em energia limpa e redes inteligentes](clean-energy-smart-grid-specialist.md)
 
 ## Acessibilidade e tecnologia centrada no ser humano
 
