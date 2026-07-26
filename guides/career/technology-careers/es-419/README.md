@@ -2,7 +2,7 @@
 
 Esta carpeta reúne las ediciones en español latinoamericano de las 50 rutas de carreras tecnológicas.
 
-> **Estado de migración:** la colección se está trasladando de forma controlada desde el repositorio histórico en español. Cada guía se agrega y verifica antes de incorporarse al catálogo.
+> **Estado de migración:** la colección se trasladó de forma controlada desde el repositorio histórico en español. Las 50 guías están incorporadas al catálogo.
 
 ## Inteligencia artificial y sistemas inteligentes
 
@@ -26,11 +26,53 @@ Esta carpeta reúne las ediciones en español latinoamericano de las 50 rutas de
 15. [Ingeniero/a de Seguridad en la Nube](cloud-security-engineer.md)
 16. [Arquitecto/a de Seguridad](security-architect.md)
 17. [Ingeniero/a de Gestión de Identidades y Accesos](identity-and-access-management-engineer.md)
+18. [Ingeniero/a de Seguridad de Aplicaciones](application-security-engineer.md)
+19. [Ingeniero/a DevSecOps](devsecops-engineer.md)
+20. [Ingeniero/a de Detección de Amenazas](threat-detection-engineer.md)
+21. [Especialista en Forense Digital y Respuesta a Incidentes](digital-forensics-incident-response-specialist.md)
+22. [Especialista en Ciberseguridad OT/ICS](ot-ics-cybersecurity-specialist.md)
+23. [Analista de Gobierno, Riesgo y Cumplimiento de Ciberseguridad](cybersecurity-grc-analyst.md)
+24. [Ingeniero/a de Privacidad](privacy-engineer.md)
+25. [Especialista en Criptografía Poscuántica](post-quantum-cryptography-specialist.md)
+26. [Ingeniero/a de Seguridad de la Cadena de Suministro de Software](software-supply-chain-security-engineer.md)
+27. [CISO Fraccional o Virtual](fractional-virtual-ciso.md)
+
+## Datos, nube y software
+
+28. [Ingeniero/a de Datos](data-engineer.md)
+29. [Científico/a de Datos](data-scientist.md)
+30. [Ingeniero/a de Analítica](analytics-engineer.md)
+31. [Especialista en Gobierno de Datos](data-governance-specialist.md)
+32. [Arquitecto/a de Nube](cloud-architect.md)
+33. [Ingeniero/a de Plataformas](platform-engineer.md)
+34. [Ingeniero/a de Confiabilidad de Sitios](site-reliability-engineer.md)
+35. [Ingeniero/a MLOps](mlops-engineer.md)
+36. [Especialista FinOps](finops-specialist.md)
+37. [Ingeniero/a de APIs e Integración](api-integration-engineer.md)
+38. [Ingeniero/a de Software Full Stack](full-stack-software-engineer.md)
+
+## Robótica y tecnologías emergentes
+
+39. [Ingeniero/a de Robótica](robotics-engineer.md)
+40. [Ingeniero/a de Sistemas Autónomos](autonomous-systems-engineer.md)
+41. [Ingeniero/a de Internet de las Cosas](internet-of-things-engineer.md)
+42. [Ingeniero/a de Computación en el Borde](edge-computing-engineer.md)
+43. [Ingeniero/a de Gemelos Digitales](digital-twin-engineer.md)
+44. [Técnico/a o Ingeniero/a de Infraestructura de Centros de Datos](data-center-infrastructure-technician-engineer.md)
+45. [Ingeniero/a de Software para Computación Cuántica](quantum-computing-software-engineer.md)
+46. [Especialista en Tecnología de Energía Limpia y Redes Inteligentes](clean-energy-smart-grid-technology-specialist.md)
+
+## Accesibilidad y tecnología humana
+
+47. [Ingeniero/a de Accesibilidad](accessibility-engineer.md)
+48. [Especialista en Tecnología de Asistencia](assistive-technology-specialist.md)
+49. [Consultor/a de Tecnología de Rehabilitación](rehabilitation-technology-consultant.md)
+50. [Investigador/a de Experiencia de Usuario Inclusiva](inclusive-ux-researcher.md)
 
 ## Estado actual
 
 - Guías previstas: 50
-- Guías migradas y enlazadas: 17
+- Guías migradas y enlazadas: 50
 - Formato actual: Markdown
 - Idioma: español latinoamericano (`es-419`)
 
