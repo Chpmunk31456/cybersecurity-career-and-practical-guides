@@ -10,11 +10,12 @@ Esta carpeta reúne las ediciones en español latinoamericano de las 50 rutas de
 2. [Ingeniero/a de Aprendizaje Automático](machine-learning-engineer.md)
 3. [Ingeniero/a de IA Generativa](generative-ai-engineer.md)
 4. [Desarrollador/a de Agentes de IA](ai-agent-developer.md)
+5. [Arquitecto/a de Soluciones de IA](ai-solutions-architect.md)
 
 ## Estado actual
 
 - Guías previstas: 50
-- Guías migradas y enlazadas: 4
+- Guías migradas y enlazadas: 5
 - Formato actual: Markdown
 - Idioma: español latinoamericano (`es-419`)
 
