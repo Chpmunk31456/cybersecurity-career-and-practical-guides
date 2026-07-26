@@ -49,11 +49,27 @@ Esta carpeta reúne las ediciones en español latinoamericano de las 50 rutas de
 35. [Ingeniero/a MLOps](mlops-engineer.md)
 36. [Especialista FinOps](finops-specialist.md)
 37. [Ingeniero/a de APIs e Integración](api-integration-engineer.md)
+38. [Ingeniero/a de Software Full Stack](full-stack-software-engineer.md)
+
+## Robótica y tecnologías emergentes
+
+39. [Ingeniero/a de Robótica](robotics-engineer.md)
+40. [Ingeniero/a de Sistemas Autónomos](autonomous-systems-engineer.md)
+41. [Ingeniero/a de Internet de las Cosas](internet-of-things-engineer.md)
+42. [Ingeniero/a de Computación en el Borde](edge-computing-engineer.md)
+43. [Ingeniero/a de Gemelos Digitales](digital-twin-engineer.md)
+44. [Técnico/a o Ingeniero/a de Infraestructura de Centros de Datos](data-center-infrastructure-technician-engineer.md)
+45. [Ingeniero/a de Software para Computación Cuántica](quantum-computing-software-engineer.md)
+46. [Especialista en Tecnología de Energía Limpia y Redes Inteligentes](clean-energy-smart-grid-technology-specialist.md)
+
+## Accesibilidad y tecnología humana
+
+47. [Ingeniero/a de Accesibilidad](accessibility-engineer.md)
 
 ## Estado actual
 
 - Guías previstas: 50
-- Guías migradas y enlazadas: 37
+- Guías migradas y enlazadas: 47
 - Formato actual: Markdown
 - Idioma: español latinoamericano (`es-419`)
 
