@@ -156,6 +156,5 @@ Dedique siete días a una introducción y una práctica pequeña. Después decid
 
 ---
 
-[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../en/natural-language-processing-engineer.md) | [Edición en portugués](../pt-BR/natural-language-processing-engineer.md)
-
+[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../nlp-engineer.md) | [Edición en portugués](../pt-BR/nlp-engineer.md)
 **Licencia:** Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.

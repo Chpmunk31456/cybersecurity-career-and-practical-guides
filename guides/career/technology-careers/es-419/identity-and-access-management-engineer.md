@@ -130,6 +130,5 @@ Lectores de pantalla, dictado, subtítulos, instrucciones escritas, horarios fle
 
 ---
 
-[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../en/identity-and-access-management-engineer.md) | [Edición en portugués](../pt-BR/identity-and-access-management-engineer.md)
-
+[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../iam-engineer.md) | [Edición en portugués](../pt-BR/iam-engineer.md)
 **Licencia:** Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.

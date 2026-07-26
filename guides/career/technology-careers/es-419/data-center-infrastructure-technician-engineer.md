@@ -128,6 +128,5 @@ Diseñe controles, alarmas y documentación para distintas capacidades visuales,
 
 ---
 
-[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../en/data-center-infrastructure-technician-engineer.md) | [Edición en portugués](../pt-BR/data-center-infrastructure-technician-engineer.md)
-
+[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../data-center-infrastructure-technician.md) | [Edición en portugués](../pt-BR/data-center-infrastructure-technician.md)
 **Licencia:** Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.

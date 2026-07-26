@@ -130,6 +130,5 @@ Lectores de pantalla, dictado, subtítulos, instrucciones escritas, horarios fle
 
 ---
 
-[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../en/privacy-engineer.md) | [Edición en portugués](../pt-BR/privacy-engineer.md)
-
+[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../privacy-engineer.md) | [Edición en portugués](../pt-BR/privacy-engineer.md)
 **Licencia:** Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.

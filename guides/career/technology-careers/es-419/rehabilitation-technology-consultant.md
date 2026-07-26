@@ -130,6 +130,5 @@ No existe una única forma correcta de aprender. Use lectores de pantalla, dicta
 
 ---
 
-[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../en/rehabilitation-technology-consultant.md) | [Edición en portugués](../pt-BR/rehabilitation-technology-consultant.md)
-
+[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../rehabilitation-technology-consultant.md) | [Edición en portugués](../pt-BR/rehabilitation-technology-consultant.md)
 **Licencia:** Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.

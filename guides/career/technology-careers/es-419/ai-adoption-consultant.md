@@ -156,6 +156,5 @@ Dedique siete días a una introducción y una práctica pequeña. Después decid
 
 ---
 
-[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../en/ai-adoption-consultant.md) | [Edición en portugués](../pt-BR/ai-adoption-consultant.md)
-
+[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../ai-adoption-consultant.md) | [Edición en portugués](../pt-BR/ai-adoption-consultant.md)
 **Licencia:** Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.

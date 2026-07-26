@@ -130,6 +130,5 @@ Lectores de pantalla, dictado, subtítulos, instrucciones escritas, horarios fle
 
 ---
 
-[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../en/cybersecurity-grc-analyst.md) | [Edición en portugués](../pt-BR/cybersecurity-grc-analyst.md)
-
+[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../grc-analyst.md) | [Edición en portugués](../pt-BR/grc-analyst.md)
 **Licencia:** Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.

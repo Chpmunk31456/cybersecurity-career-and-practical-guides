@@ -130,6 +130,5 @@ No existe una única forma correcta de aprender. Use lectores de pantalla, dicta
 
 ---
 
-[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../en/inclusive-ux-researcher.md) | [Edición en portugués](../pt-BR/inclusive-ux-researcher.md)
-
+[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../inclusive-ux-researcher.md) | [Edición en portugués](../pt-BR/inclusive-ux-researcher.md)
 **Licencia:** Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.

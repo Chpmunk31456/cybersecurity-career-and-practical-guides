@@ -128,6 +128,5 @@ Use las adaptaciones que necesite: dictado, lectores de pantalla, subtítulos, t
 
 ---
 
-[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../en/data-scientist.md) | [Edición en portugués](../pt-BR/data-scientist.md)
-
+[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../data-scientist.md) | [Edición en portugués](../pt-BR/data-scientist.md)
 **Licencia:** Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.

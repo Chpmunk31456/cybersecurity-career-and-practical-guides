@@ -130,6 +130,5 @@ Lectores de pantalla, dictado, subtítulos, instrucciones escritas, horarios fle
 
 ---
 
-[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../en/security-architect.md) | [Edición en portugués](../pt-BR/security-architect.md)
-
+[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../security-architect.md) | [Edición en portugués](../pt-BR/security-architect.md)
 **Licencia:** Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.

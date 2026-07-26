@@ -128,6 +128,5 @@ Diseñe controles, alarmas y documentación para distintas capacidades visuales,
 
 ---
 
-[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../en/quantum-computing-software-engineer.md) | [Edición en portugués](../pt-BR/quantum-computing-software-engineer.md)
-
+[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../quantum-software-engineer.md) | [Edición en portugués](../pt-BR/quantum-software-engineer.md)
 **Licencia:** Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.

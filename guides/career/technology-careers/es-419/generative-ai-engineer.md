@@ -156,6 +156,5 @@ Dedique siete días a una introducción y una práctica pequeña. Después decid
 
 ---
 
-[Volver al catálogo de carreras en español](README.md) | [English edition](../en/generative-ai-engineer.md) | [Edição em português](../pt-BR/generative-ai-engineer.md)
-
+[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../generative-ai-engineer.md) | [Edición en portugués](../pt-BR/generative-ai-engineer.md)
 **Licencia:** Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.

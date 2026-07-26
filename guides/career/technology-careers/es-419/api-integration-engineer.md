@@ -128,6 +128,5 @@ Use las adaptaciones que necesite: dictado, lectores de pantalla, subtítulos, t
 
 ---
 
-[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../en/api-integration-engineer.md) | [Edición en portugués](../pt-BR/api-integration-engineer.md)
-
+[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../api-integration-engineer.md) | [Edición en portugués](../pt-BR/api-integration-engineer.md)
 **Licencia:** Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.

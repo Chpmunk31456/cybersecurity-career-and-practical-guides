@@ -128,6 +128,5 @@ Diseñe controles, alarmas y documentación para distintas capacidades visuales,
 
 ---
 
-[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../en/clean-energy-smart-grid-technology-specialist.md) | [Edición en portugués](../pt-BR/clean-energy-smart-grid-technology-specialist.md)
-
+[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../clean-energy-smart-grid-specialist.md) | [Edición en portugués](../pt-BR/clean-energy-smart-grid-specialist.md)
 **Licencia:** Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.

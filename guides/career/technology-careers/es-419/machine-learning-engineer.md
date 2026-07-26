@@ -156,6 +156,5 @@ Dedique siete días a una introducción y una práctica pequeña. Después decid
 
 ---
 
-[Volver al catálogo de carreras en español](README.md) | [English edition](../en/machine-learning-engineer.md) | [Edição em português](../pt-BR/machine-learning-engineer.md)
-
+[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../machine-learning-engineer.md) | [Edición en portugués](../pt-BR/machine-learning-engineer.md)
 **Licencia:** Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.

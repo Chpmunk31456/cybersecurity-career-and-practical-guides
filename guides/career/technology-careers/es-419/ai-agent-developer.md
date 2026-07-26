@@ -156,6 +156,5 @@ Dedique siete días a una introducción y una práctica pequeña. Después decid
 
 ---
 
-[Volver al catálogo de carreras en español](README.md) | [English edition](../en/ai-agent-developer.md) | [Edição em português](../pt-BR/ai-agent-developer.md)
-
+[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../ai-agent-developer.md) | [Edición en portugués](../pt-BR/ai-agent-developer.md)
 **Licencia:** Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.

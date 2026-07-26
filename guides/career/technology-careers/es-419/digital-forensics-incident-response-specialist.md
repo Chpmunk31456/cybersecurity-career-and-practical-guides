@@ -130,6 +130,5 @@ Lectores de pantalla, dictado, subtítulos, instrucciones escritas, horarios fle
 
 ---
 
-[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../en/digital-forensics-incident-response-specialist.md) | [Edición en portugués](../pt-BR/digital-forensics-incident-response-specialist.md)
-
+[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../dfir-specialist.md) | [Edición en portugués](../pt-BR/dfir-specialist.md)
 **Licencia:** Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.
