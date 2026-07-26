@@ -128,6 +128,5 @@ Use las adaptaciones que necesite: dictado, lectores de pantalla, subtítulos, t
 
 ---
 
-[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../en/finops-specialist.md) | [Edición en portugués](../pt-BR/finops-specialist.md)
-
+[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../finops-specialist.md) | [Edición en portugués](../pt-BR/finops-specialist.md)
 **Licencia:** Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.

@@ -128,6 +128,5 @@ Diseñe controles, alarmas y documentación para distintas capacidades visuales,
 
 ---
 
-[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../en/robotics-engineer.md) | [Edición en portugués](../pt-BR/robotics-engineer.md)
-
+[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../robotics-engineer.md) | [Edición en portugués](../pt-BR/robotics-engineer.md)
 **Licencia:** Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.

@@ -130,6 +130,5 @@ Lectores de pantalla, dictado, subtítulos, instrucciones escritas, horarios fle
 
 ---
 
-[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../en/cybersecurity-analyst.md) | [Edición en portugués](../pt-BR/cybersecurity-analyst.md)
-
+[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../cybersecurity-analyst.md) | [Edición en portugués](../pt-BR/cybersecurity-analyst.md)
 **Licencia:** Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.

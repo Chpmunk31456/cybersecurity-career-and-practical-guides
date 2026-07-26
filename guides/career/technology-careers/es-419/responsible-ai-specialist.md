@@ -156,6 +156,5 @@ Dedique siete días a una introducción y una práctica pequeña. Después decid
 
 ---
 
-[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../en/responsible-ai-specialist.md) | [Edición en portugués](../pt-BR/responsible-ai-specialist.md)
-
+[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../responsible-ai-specialist.md) | [Edición en portugués](../pt-BR/responsible-ai-specialist.md)
 **Licencia:** Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.

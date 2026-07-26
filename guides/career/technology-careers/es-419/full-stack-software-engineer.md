@@ -128,6 +128,5 @@ Use las adaptaciones que necesite: dictado, lectores de pantalla, subtítulos, t
 
 ---
 
-[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../en/full-stack-software-engineer.md) | [Edición en portugués](../pt-BR/full-stack-software-engineer.md)
-
+[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../full-stack-software-engineer.md) | [Edición en portugués](../pt-BR/full-stack-software-engineer.md)
 **Licencia:** Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.

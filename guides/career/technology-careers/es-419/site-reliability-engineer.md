@@ -128,6 +128,5 @@ Use las adaptaciones que necesite: dictado, lectores de pantalla, subtítulos, t
 
 ---
 
-[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../en/site-reliability-engineer.md) | [Edición en portugués](../pt-BR/site-reliability-engineer.md)
-
+[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../site-reliability-engineer.md) | [Edición en portugués](../pt-BR/site-reliability-engineer.md)
 **Licencia:** Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.

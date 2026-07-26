@@ -130,6 +130,5 @@ Lectores de pantalla, dictado, subtítulos, instrucciones escritas, horarios fle
 
 ---
 
-[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../en/fractional-virtual-ciso.md) | [Edición en portugués](../pt-BR/fractional-virtual-ciso.md)
-
+[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../virtual-ciso.md) | [Edición en portugués](../pt-BR/virtual-ciso.md)
 **Licencia:** Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.

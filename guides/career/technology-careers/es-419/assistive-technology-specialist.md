@@ -130,6 +130,5 @@ No existe una única forma correcta de aprender. Use lectores de pantalla, dicta
 
 ---
 
-[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../en/assistive-technology-specialist.md) | [Edición en portugués](../pt-BR/assistive-technology-specialist.md)
-
+[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../assistive-technology-specialist.md) | [Edición en portugués](../pt-BR/assistive-technology-specialist.md)
 **Licencia:** Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.

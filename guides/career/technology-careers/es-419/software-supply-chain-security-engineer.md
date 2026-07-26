@@ -130,6 +130,5 @@ Lectores de pantalla, dictado, subtítulos, instrucciones escritas, horarios fle
 
 ---
 
-[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../en/software-supply-chain-security-engineer.md) | [Edición en portugués](../pt-BR/software-supply-chain-security-engineer.md)
-
+[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../software-supply-chain-security-engineer.md) | [Edición en portugués](../pt-BR/software-supply-chain-security-engineer.md)
 **Licencia:** Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.

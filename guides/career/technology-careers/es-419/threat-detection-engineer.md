@@ -130,6 +130,5 @@ Lectores de pantalla, dictado, subtítulos, instrucciones escritas, horarios fle
 
 ---
 
-[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../en/threat-detection-engineer.md) | [Edición en portugués](../pt-BR/threat-detection-engineer.md)
-
+[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../detection-engineer.md) | [Edición en portugués](../pt-BR/detection-engineer.md)
 **Licencia:** Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.

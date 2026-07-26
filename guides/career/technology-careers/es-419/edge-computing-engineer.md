@@ -128,6 +128,5 @@ Diseñe controles, alarmas y documentación para distintas capacidades visuales,
 
 ---
 
-[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../en/edge-computing-engineer.md) | [Edición en portugués](../pt-BR/edge-computing-engineer.md)
-
+[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../edge-computing-engineer.md) | [Edición en portugués](../pt-BR/edge-computing-engineer.md)
 **Licencia:** Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.

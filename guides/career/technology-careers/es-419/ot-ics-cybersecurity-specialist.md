@@ -130,6 +130,5 @@ Lectores de pantalla, dictado, subtítulos, instrucciones escritas, horarios fle
 
 ---
 
-[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../en/ot-ics-cybersecurity-specialist.md) | [Edición en portugués](../pt-BR/ot-ics-cybersecurity-specialist.md)
-
+[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../ot-ics-security-specialist.md) | [Edición en portugués](../pt-BR/ot-ics-security-specialist.md)
 **Licencia:** Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.

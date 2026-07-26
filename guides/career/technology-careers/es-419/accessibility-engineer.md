@@ -130,6 +130,5 @@ No existe una única forma correcta de aprender. Use lectores de pantalla, dicta
 
 ---
 
-[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../en/accessibility-engineer.md) | [Edición en portugués](../pt-BR/accessibility-engineer.md)
-
+[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../accessibility-engineer.md) | [Edición en portugués](../pt-BR/accessibility-engineer.md)
 **Licencia:** Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.

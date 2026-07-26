@@ -130,6 +130,5 @@ Lectores de pantalla, dictado, subtítulos, instrucciones escritas, horarios fle
 
 ---
 
-[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../en/application-security-engineer.md) | [Edición en portugués](../pt-BR/application-security-engineer.md)
-
+[Volver al catálogo de carreras en español](README.md) | [Edición en inglés](../application-security-engineer.md) | [Edición en portugués](../pt-BR/application-security-engineer.md)
 **Licencia:** Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.
